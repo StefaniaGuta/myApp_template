@@ -1,0 +1,36 @@
+.Nav{
+  display: flex;
+  margin-left: 20px;
+}
+.Link {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.01px;
+  letter-spacing: 0.04em;
+  text-align: right;
+  color: #9B9FAA;
+  text-decoration: none;  
+  gap: 0px;
+  opacity: 0px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.Link:first-child{
+  width: 60px;
+  
+}
+
+.Link:last-child{
+  width: 128px;
+  margin-left: 10px;
+
+}
+  
+.Link:focus,
+.Link:hover {
+  color: #212121;
+
+}
